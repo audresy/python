@@ -1,0 +1,10 @@
+Introduction:
+1. nanoparticle_size_hist_BFS (Breath-first search method)
+  Thermal annealed metal nanoparticles scanning by SEM
+  Use Kmeans identify particles from SEM graph
+  Use BFS method identify particle islands and count pixel number of each island
+  Use matplotlib plot histgram of particle diameter vs particle number statistic
+  
+2. nanoparticle_size_hist_DFS (Depth-first search method)
+  The recursion limitation problem happens due to too many pixel data in the file. 
+  After revising the limitation, error warning is still there
